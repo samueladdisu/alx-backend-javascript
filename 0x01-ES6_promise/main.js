@@ -11,6 +11,10 @@
 
 // console.log(signUpUser("Bob", "Dylan"));
 
-import uploadPhoto from './5-photo-reject';
+// import uploadPhoto from './5-photo-reject';
 
-console.log(uploadPhoto('guillaume.jpg'));
+// console.log(uploadPhoto('guillaume.jpg'));
+
+import handleProfileSignup from './6-final-user';
+
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
